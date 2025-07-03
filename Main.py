@@ -3,7 +3,7 @@ import requests, time, random
 SESSIONID = "d121aef7d3daba361704983824c28110"
 HEADERS = {"cookie": f"sessionid={SESSIONID}", "user-agent":"Mozilla/5.0"}
 
-LIVE_FEED = "https://www.tiktok.com/tag/live"
+LIVE_FEED = "https://www.tiktok.com/live"
 
 def collect_in_live(url):
     print("🔁 Visiting:", url)
